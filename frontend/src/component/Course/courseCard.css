@@ -1,0 +1,44 @@
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 3%;
+}
+
+.progressDiv {
+  float: right;
+  position: relative;
+  min-width: 70;
+  top: 0%;
+  right: 0%;
+}
+
+.courseInfo {
+  float: left;
+  position: relative;
+  left: 0%;
+  max-width: 90;
+  overflow: hidden;
+}
+
+.trackProgress {
+  float: left;
+  position: relative;
+  left: 0%;
+}
+
+.timeProgress {
+  float: right;
+  position: relative;
+  top: 0%;
+  right: 0%;
+}
+
+
+.progressInfo{
+  margin: auto;
+}
+
+.verticalHr{
+  width: 5px;
+  height: 100%;
+  background-color: black;
+}
