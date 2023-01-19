@@ -14,7 +14,7 @@ const duration = {
 
 const courseSchema = new mongoose.Schema({
   name: {
-    type: String,
+    type: Number,
     required: [true, "Please Enter the Course name."],
     trim: true,
   },
